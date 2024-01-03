@@ -1,3 +1,4 @@
+
 *{
     margin: o;
     padding: 0;
@@ -17,6 +18,9 @@ section{
     align-items: center;
 }
 
+ul li a{
+    
+}
 section h2{
     font-size: 8rem;
 }
