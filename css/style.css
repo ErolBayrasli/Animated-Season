@@ -131,3 +131,61 @@ section .set div:nth-child(8)
     transform: scale(0.8) rotateX(180deg);
     filter: blur(2px);
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: font-family: 'Bungee Spice', sans-serif;
+};
+
+body {
+    min-height: 100vh;
+    ;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: #999191;
+}
+
+.logo {
+    font-size: 35px;
+    color: #303030;
+    text-decoration: none;
+    font-weight: 700;
+}
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    width: 0;
+    left: 0;
+    height: 2px;
+    background: #4e4e50;
+    transition: .3s;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
