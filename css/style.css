@@ -23,9 +23,6 @@ section{
     align-items: center;
 }
 
-ul li a{
-    
-}
 
 section h2{
     font-size: 8rem;
@@ -137,7 +134,7 @@ section .set div:nth-child(8)
     padding: 0;
     box-sizing: border-box;
     font-family: font-family: 'Bungee Spice', sans-serif;
-};
+}
 
 body {
     min-height: 100vh;
@@ -188,4 +185,17 @@ body {
 
 .navbar a:hover::before {
     width: 100%;
+}
+
+.winter{
+    background: radial-gradient(#ffffff,#9ee9f3);
+}
+.winter-text{
+    color: #918a8a;
+}
+.spring{
+    background: radial-gradient(#ffffff,#ff00c8);
+}
+.summer{
+    background: radial-gradient(#ffffff,#eeff00); 
 }
